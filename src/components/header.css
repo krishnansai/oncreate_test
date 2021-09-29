@@ -1,0 +1,114 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 450px;
+}
+
+.down {
+    margin: 5%;
+}
+
+.sys {
+    margin: 5%;
+    width: 90%;
+    text-align: center;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.let {
+    font-size: medium;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.prize {
+    height: 800px;
+    width: 430px;
+}
+
+.person {
+    height: 600px;
+    width: 900px;
+}
+
+.product {
+    display: flex;
+    width: 1000px;
+}
+
+.foot {
+    background-color: rgba(255, 0, 0, 0.801);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 93%;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+@media(max-width:700px) {
+    .prize {
+        display: flex;
+        justify-content: center;
+        height: 350px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .person {
+        height: 200px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .gov {
+        margin: 5%;
+    }
+    .pic {
+        display: flex;
+        align: center;
+        flex-direction: column;
+        length: 90%;
+        height: 90%;
+        width: 90%;
+    }
+    .line {
+        display: flex;
+        flex-direction: column;
+    }
+    .head {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        width: 250px;
+    }
+    .product {
+        display: flex;
+        width: 90%;
+    }
+    .sys {
+        width: 90%;
+        font-size: smaller;
+    }
+    .contain {
+        width: 90%;
+        height: 90%;
+    }
+    .foot {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
